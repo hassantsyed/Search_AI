@@ -1,0 +1,43 @@
+Script started on 2018-09-25 23:25:02-0400
+]0;hassan@hassan-MACH-WX9: ~/Documents/pitt/ai/hts13-project1[01;32mhassan@hassan-MACH-WX9[00m:[01;34m~/Documents/pitt/ai/hts13-project1[00m$ python puzzlesolver.py test_cities.config unicost [K
+C00
+C11
+C02
+C13
+C22
+C32
+C42
+C33
+C43
+C34
+C44
+Time: 1074
+Space: frontier: 133, explored: 163
+]0;hassan@hassan-MACH-WX9: ~/Documents/pitt/ai/hts13-project1[01;32mhassan@hassan-MACH-WX9[00m:[01;34m~/Documents/pitt/ai/hts13-project1[00m$ python puzzlesolver.py test_cities.config unicost -f [K[K[K[K[K[K[K[K[K[K[Kgreedy -f euclid
+C00
+C11
+C22
+C33
+C44
+Time: 28
+Space: frontier: 21, explored: 4
+]0;hassan@hassan-MACH-WX9: ~/Documents/pitt/ai/hts13-project1[01;32mhassan@hassan-MACH-WX9[00m:[01;34m~/Documents/pitt/ai/hts13-project1[00m$ python puzzlesolver.py test_cities.config greedy -f euclid[1P[1P[1P[1P[1P[1P[1@a[1@s[1@t[1@a[1@r[C
+C00
+C11
+C20
+C30
+C40
+C31
+C41
+C32
+C42
+C33
+C43
+C34
+C44
+Time: 879
+Space: frontier: 113, explored: 136
+]0;hassan@hassan-MACH-WX9: ~/Documents/pitt/ai/hts13-project1[01;32mhassan@hassan-MACH-WX9[00m:[01;34m~/Documents/pitt/ai/hts13-project1[00m$ exit
+exit
+
+Script done on 2018-09-25 23:26:01-0400

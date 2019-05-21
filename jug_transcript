@@ -1,0 +1,41 @@
+Script started on 2018-09-25 23:30:44-0400
+]0;hassan@hassan-MACH-WX9: ~/Documents/pitt/ai/hts13-project1[01;32mhassan@hassan-MACH-WX9[00m:[01;34m~/Documents/pitt/ai/hts13-project1[00m$ python puzzlesolver.py test_jugs.config bfd[Ks
+[0, 0]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+Time: 91
+Space: frontier: 4, explored: 15
+]0;hassan@hassan-MACH-WX9: ~/Documents/pitt/ai/hts13-project1[01;32mhassan@hassan-MACH-WX9[00m:[01;34m~/Documents/pitt/ai/hts13-project1[00m$ python puzzlesolver.py test_jugs.config bfs[K[K[Kdfs
+[0, 0]
+[0, 11]
+[4, 7]
+[4, 11]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+Time: 61
+Space: frontier: 5
+]0;hassan@hassan-MACH-WX9: ~/Documents/pitt/ai/hts13-project1[01;32mhassan@hassan-MACH-WX9[00m:[01;34m~/Documents/pitt/ai/hts13-project1[00m$ python puzzlesolver.py test_jugs.config dfs[K[K[Kgreedy -f dist
+[0, 0]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+Time: 43
+Space: frontier: 9, explored: 7
+]0;hassan@hassan-MACH-WX9: ~/Documents/pitt/ai/hts13-project1[01;32mhassan@hassan-MACH-WX9[00m:[01;34m~/Documents/pitt/ai/hts13-project1[00m$ exit
+exit
+
+Script done on 2018-09-25 23:31:44-0400
